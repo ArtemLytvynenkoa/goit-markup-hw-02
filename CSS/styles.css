@@ -1,0 +1,69 @@
+
+/* Color main text #757575  */
+/* Second color #212121 */
+/* wight #FFFFFF */
+/* accent  #2196F3 */
+/* logo colors #2196F3 #000000 */
+/* footer link color  rgba(255, 255, 255, 0,6) */
+/* Hero and footer backgrounds color #2F303A */
+ :root {
+     --primary-text-color: #757575;
+     --title-text-color: #212121;
+     --accent-color: #2196F3;
+     --main-background-color: #FFFFFF;
+     --logo-color #000000;
+     --hero-background-color: #2F303A;
+
+ }
+
+body {
+    background-color: var(--main-background-color);
+    color: var(--primary-text-color);
+}
+
+.logo {
+    color: var(--logo-color);
+}
+
+.logo-first-part {
+    color: var(--accent-color);
+}
+
+/* Site nav */
+.list {
+    list-style: none;
+}
+
+.link{
+    text-decoration: none;
+}
+
+.site-nav .link {
+    color: var(--title-text-color);
+}
+
+.site-nav .link:hover,
+.site-nav .link:focus,
+.auth-nav .link:hover,
+.auth-nav .link:focus{
+    color: var(--accent-color);
+}
+
+.auth-nav .link {
+    color: var(--primary-text-color);
+}
+
+/* Main content */
+
+.hero {
+    background-color: var(--hero-background-color);
+}
+
+.hero-title {
+    color: var(--main-background-color);
+}
+
+.section-title {
+   color: var(--title-text-color); 
+}
+
