@@ -163,6 +163,12 @@ body {
     color: var(--footer-link-color)
 }
 
+.auth-footer .link:hover,
+.auth-footer .link:focus {
+    background-color: #757575;
+    color: #F5F4FA;
+}
+
 .auth-footer {
     font-size: 14px;
     line-height: 1,71;
