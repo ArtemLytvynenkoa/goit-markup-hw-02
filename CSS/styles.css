@@ -11,9 +11,11 @@
      --title-text-color: #212121;
      --accent-color: #2196F3;
      --main-background-color: #FFFFFF;
-     --logo-color #000000;
+     --logo-color: #000000;
      --hero-background-color: #2F303A;
-
+     --our-team-section-background-color: F5F4FA;
+     --footer-link-color: rgba(255, 255, 255, 60%);
+     
  }
 
 body {
@@ -63,7 +65,48 @@ body {
     color: var(--main-background-color);
 }
 
-.section-title {
+.hero-button {
+    background-color: var(--accent-color);
+    color: var(--main-background-color);
+}
+
+.offer-title,
+.wwd-title,
+.title-portfolio {
+    color: var(--main-background-color);
+}
+
+.section-title,
+.offer-list .title,
+.team-list .title,
+.project-list .title {
    color: var(--title-text-color); 
 }
+
+.team-section {
+    background-color: var(--our-team-section-background-color);
+}
+
+.bg-footer,
+.bg-footer .logo{
+    background-color: var(--hero-background-color);
+    color: var(--main-background-color);  
+}
+
+.auth-footer .link {
+    color: var(--footer-link-color)
+}
+
+.portfolio .button {
+    background-color: var(--our-team-section-background-color);
+    color: var(--title-text-color)
+}
+.portfolio .button:hover,
+.portfolio .button:focus {
+    background-color: var(--accent-color);
+    color: var(--main-background-color);
+}
+    
+
+
 
