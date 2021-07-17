@@ -165,8 +165,8 @@ body {
 
 .auth-footer .link:hover,
 .auth-footer .link:focus {
-    background-color: #757575;
-    color: #F5F4FA;
+    background-color: var(--primary-text-color);
+    color: var(--our-team-section-background-color);
 }
 
 .auth-footer {
@@ -184,6 +184,12 @@ body {
     font-size: 16px;
     line-height: 1,63;
 }
+
+.portfolio .button,
+.hero-button {
+    cursor: pointer;
+}
+
 .portfolio .button:hover,
 .portfolio .button:focus {
     background-color: var(--accent-color);
