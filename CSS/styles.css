@@ -28,7 +28,7 @@ body {
 .logo {
     color: var(--logo-color);
     font-family: Raleway, cursive; 
-    font-weight: bold;
+    font-weight: 700;
     font-size: 26px;
     line-height: 1,19;
 }
@@ -74,7 +74,7 @@ body {
     letter-spacing: 0.02em;
 }
 
-/* Main content */
+/* Hero content */
 
 .hero {
     background-color: var(--hero-background-color);
@@ -95,7 +95,7 @@ body {
     background-color: var(--accent-color);
     color: var(--main-background-color);
     font-family: inherit;
-    font-weight: bold;
+    font-weight: 700;
     font-size: 16px;
     line-height: 1.88;
     letter-spacing: 0.06em;
@@ -115,14 +115,14 @@ body {
 }
 
 .section-title {
-    font-weight: bold;
+    font-weight: 700;
     font-size: 36px;
     line-height: 1,16;
     text-align: center;
 }
 
 .offer-list .title {
-    font-weight: bold;
+    font-weight: 700;
     font-size: 14px;
     line-height: 1,14;
     text-transform: uppercase;
@@ -151,6 +151,8 @@ body {
 
 }
 
+/* Footer content */
+
 .bg-footer,
 .bg-footer .logo{
     background-color: var(--hero-background-color);
@@ -165,6 +167,8 @@ body {
     font-size: 14px;
     line-height: 1,71;
 }
+
+/* Portfolio content */
 
 .portfolio .button {
     background-color: var(--our-team-section-background-color);
@@ -181,7 +185,7 @@ body {
 }
 
 .project-list .title {
-    font-weight: bold;
+    font-weight: 700;
     font-size: 18px;
     line-height: 2;
     letter-spacing: 0.06em;
