@@ -13,7 +13,7 @@
      --main-background-color: #FFFFFF;
      --logo-color: #000000;
      --hero-background-color: #2F303A;
-     --our-team-section-background-color: F5F4FA;
+     --our-team-section-background-color: #F5F4FA;
      --footer-link-color: rgba(255, 255, 255, 60%);
      
  }
@@ -21,10 +21,16 @@
 body {
     background-color: var(--main-background-color);
     color: var(--primary-text-color);
+    font-family: Roboto, sans-serif;
+    letter-spacing: 0.03em;
 }
 
 .logo {
     color: var(--logo-color);
+    font-family: Raleway, cursive; 
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 1,19;
 }
 
 .logo-first-part {
@@ -42,6 +48,10 @@ body {
 
 .site-nav .link {
     color: var(--title-text-color);
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1,14;
+    letter-spacing: 0.02em;
 }
 
 .site-nav .link:hover,
@@ -51,8 +61,17 @@ body {
     color: var(--accent-color);
 }
 
+.site-nav .link.current,
+.title-portfolio .button.current {
+    color: var(--accent-color);
+}
+
 .auth-nav .link {
     color: var(--primary-text-color);
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1,14;
+    letter-spacing: 0.02em;
 }
 
 /* Main content */
@@ -63,11 +82,22 @@ body {
 
 .hero-title {
     color: var(--main-background-color);
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1,36;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
 }
 
 .hero-button {
     background-color: var(--accent-color);
     color: var(--main-background-color);
+    font-family: inherit;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 1.88;
+    letter-spacing: 0.06em;
 }
 
 .offer-title,
@@ -83,8 +113,41 @@ body {
    color: var(--title-text-color); 
 }
 
+.section-title {
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 1,16;
+    text-align: center;
+}
+
+.offer-list .title {
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 1,14;
+    text-transform: uppercase;
+}
+
+.section-offer .text{
+    font-size: 14px;
+    line-height: 1,71;
+}
+
 .team-section {
     background-color: var(--our-team-section-background-color);
+}
+
+.team-section .title {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1,19;
+    text-align: center;
+}
+
+.team-section .text {
+    font-size: 16px;
+    line-height: 1,19;
+    text-align: center;
+
 }
 
 .bg-footer,
@@ -97,14 +160,35 @@ body {
     color: var(--footer-link-color)
 }
 
+.auth-footer {
+    font-size: 14px;
+    line-height: 1,71;
+}
+
 .portfolio .button {
     background-color: var(--our-team-section-background-color);
-    color: var(--title-text-color)
+    color: var(--title-text-color);
+    font-family: inherit;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1,63;
 }
 .portfolio .button:hover,
 .portfolio .button:focus {
     background-color: var(--accent-color);
     color: var(--main-background-color);
+}
+
+.project-list .title {
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+}
+
+.project-list .text {
+    font-size: 16px;
+    line-height: 1,88;
 }
     
 
