@@ -15,6 +15,7 @@
      --hero-background-color: #2F303A;
      --our-team-section-background-color: #F5F4FA;
      --footer-link-color: rgba(255, 255, 255, 60%);
+     --hero-button-color: #188CE8;
      
  }
 
@@ -92,13 +93,20 @@ body {
 }
 
 .hero-button {
-    background-color: var(--accent-color);
+    background-color: var(--hero-button-color);
     color: var(--main-background-color);
     font-family: inherit;
     font-weight: 700;
     font-size: 16px;
     line-height: 1.88;
     letter-spacing: 0.06em;
+
+    align-items: center;
+}
+
+.hero-button:focus,
+.hero-button:hover {
+    background-color: var(--accent-color);
 }
 
 .offer-title,
@@ -157,6 +165,12 @@ body {
 .bg-footer .logo{
     background-color: var(--hero-background-color);
     color: var(--main-background-color);  
+}
+
+.address {
+font-style: normal;
+font-size: 14px;
+line-height: 1.71;
 }
 
 .auth-footer .link {
