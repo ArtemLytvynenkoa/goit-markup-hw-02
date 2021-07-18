@@ -167,7 +167,7 @@ body {
     color: var(--main-background-color);  
 }
 
-.address {
+.bg-footer .address {
 font-style: normal;
 font-size: 14px;
 line-height: 1.71;
@@ -181,11 +181,6 @@ line-height: 1.71;
 .auth-footer .link:focus {
     background-color: var(--primary-text-color);
     color: var(--our-team-section-background-color);
-}
-
-.auth-footer {
-    font-size: 14px;
-    line-height: 1.71;
 }
 
 /* Portfolio content */
