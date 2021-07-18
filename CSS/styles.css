@@ -214,8 +214,19 @@ line-height: 1.71;
 }
 
 .project-list .text {
+    color: var(--primary-text-color);
     font-size: 16px;
     line-height: 1.88;
+}
+
+.project-list .text:focus,
+.project-list .text:hover,
+.project-list .title:focus,
+.project-list .title:hover,
+.project-list .img:focus,
+.project-list .img:hover {
+    background-color: var(--primary-text-color);
+    color: var(--our-team-section-background-color);
 }
     
 
